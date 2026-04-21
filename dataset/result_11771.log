@@ -1,0 +1,5 @@
+Index: 11771
+File: /home/lomin/Customer/hklife/bsn-2109-hklife/Evaluation/inputFiles/HKL01-ALL/dcd211b7-0122-485d-9da1-eab8605970c7.tif
+Timestamp: 2026-04-08 00:16:00
+HTTP Response: {"metadata":{"response":{"request_datetime":"2026-04-08T00:15:58.467013","response_datetime":"2026-04-08T00:15:59.978993","time_elapsed":1.51198}},"document":{"original":{"document_id":""},"rectified":{"document_id":""}},"prediction":{"all_pages":[{"page":1,"rectification":{"rotation":{"angle":0.0,"expansion":false}},"tables":[],"doc_type":"HKL2-24","key_values":[]}],"doc_types":[{"doc_type":"HKL2-24","pages":[[1]],"confidence":[1.0]}],"key_values":[]}}
+-------------

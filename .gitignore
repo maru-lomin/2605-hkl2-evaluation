@@ -1,0 +1,9 @@
+# 로컬 wheel 캐시(용량 큼, README 오프라인 절차로 재생성)
+wheels/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
