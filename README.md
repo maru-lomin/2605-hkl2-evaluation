@@ -15,6 +15,7 @@ uv run --with pip python -m pip download -r requirements.txt -d wheels
 ### 2. 폐쇄망 — wheel로 환경 동기화
 
 ```bash
+uv venv
 uv pip install --no-index --find-links .\wheels -r .\requirements.txt
 ./evaluation.sh
 ```
