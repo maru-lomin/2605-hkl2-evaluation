@@ -26,7 +26,7 @@ beautifulsoup4==4.14.3
     # via nbconvert
 bleach==6.3.0
     # via nbconvert
-certifi==2026.2.25
+certifi==2026.4.22
     # via
     #   httpcore
     #   httpx
@@ -69,7 +69,7 @@ httpcore==1.0.9
     # via httpx
 httpx==0.28.1
     # via jupyterlab
-idna==3.11
+idna==3.13
     # via
     #   anyio
     #   httpx
@@ -80,7 +80,7 @@ ipykernel==7.2.0
     #   jupyter
     #   jupyter-console
     #   jupyterlab
-ipython==9.12.0
+ipython==9.13.0
     # via
     #   ipykernel
     #   ipywidgets
@@ -165,7 +165,7 @@ markupsafe==3.0.3
     # via
     #   jinja2
     #   nbconvert
-matplotlib==3.10.8
+matplotlib==3.10.9
     # via
     #   2605-hkl-evaluation
     #   koreanize-matplotlib
@@ -200,9 +200,10 @@ numpy==2.4.4
     # via
     #   contourpy
     #   matplotlib
+    #   pandas
 openpyxl==3.1.5
     # via 2605-hkl-evaluation
-packaging==26.1
+packaging==26.2
     # via
     #   ipykernel
     #   jupyter-events
@@ -211,6 +212,8 @@ packaging==26.1
     #   jupyterlab-server
     #   matplotlib
     #   nbconvert
+pandas==3.0.2
+    # via 2605-hkl-evaluation
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.6
@@ -228,7 +231,9 @@ prompt-toolkit==3.0.52
     #   ipython
     #   jupyter-console
 psutil==7.2.2
-    # via ipykernel
+    # via
+    #   ipykernel
+    #   ipython
 ptyprocess==0.7.0 ; os_name != 'nt' or (sys_platform != 'emscripten' and sys_platform != 'win32')
     # via
     #   pexpect
@@ -250,6 +255,7 @@ python-dateutil==2.9.0.post0
     #   arrow
     #   jupyter-client
     #   matplotlib
+    #   pandas
 python-json-logger==4.1.0
     # via jupyter-events
 pywinpty==3.0.3 ; os_name == 'nt'
@@ -332,8 +338,10 @@ typing-extensions==4.15.0
     #   anyio
     #   beautifulsoup4
     #   referencing
-tzdata==2026.1
-    # via arrow
+tzdata==2026.2
+    # via
+    #   arrow
+    #   pandas
 uri-template==1.3.0
     # via jsonschema
 urllib3==2.6.3
